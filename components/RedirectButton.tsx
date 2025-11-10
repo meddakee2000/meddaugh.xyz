@@ -1,6 +1,7 @@
 "use client";
 
 import styles from './RedirectButton.module.css';
+import TypingText from './TypingText';
 
 interface RedirectButtonProps {
     text: string,
@@ -19,7 +20,7 @@ const RedirectButton = ({text, src, url}: RedirectButtonProps) => {
 
             <div className = {`flex-centered bordered-item ${styles.RedirectButton}`} onClick = {handleClick}>
                 <img src = {src} width = {25}/>
-                {text}
+                <TypingText text = {text} speed = {50}/>
             </div>
 
         )
@@ -27,7 +28,7 @@ const RedirectButton = ({text, src, url}: RedirectButtonProps) => {
         return (
 
             <div className = {`flex-centered bordered-item ${styles.RedirectButton}`} onClick = {handleClick}>
-                {text}
+                <TypingText text = {text} speed = {50}/>
             </div>            
 
         )

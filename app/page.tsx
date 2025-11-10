@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Lennies from '@/components/Lennies';
 import TypingText from '@/components/TypingText';
 import StackDisplay from '@/components/StackDisplay';
 import RedirectButton from '@/components/RedirectButton';
@@ -13,9 +14,7 @@ const Page = () => {
 
             <div id = 'content'>
 
-                <div className = 'flex-centered'>
-                    {"( ͡°∩ ͡° ) ( ͡⚆ ͜ʖ ͡⚆ ) ( ͡°Ɛ ͡° ) ( ͡☭ ͜ʖ ͡☭ ) ( ͡ຈ ͜ʖ ͡ຈ )"}
-                </div>
+                <Lennies/>
                 
                 <div id = 'title' className = 'bordered-item' style = {{padding: '30px 0px'}}>
                     <TypingText text = 'meddaugh.xyz 🧑‍💻' speed = {50}/>
@@ -43,9 +42,7 @@ const Page = () => {
                     
                 </div>
 
-                <div className = 'flex-centered'>
-                    {"( ͡° ͜ʟ ͡° ) ( ͡ಠ ͜ʖ ͡ಠ ) ( ͡° ͜⍨ ͡° ) ( ͡• ͜ʖ ͡• ) ( ͡º ͜ʖ ͡º )"}
-                </div>
+                <Lennies/>
 
             </div>
 
