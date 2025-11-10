@@ -19,10 +19,15 @@ const Navigation = () => {
                 About
             </a>
 
+        
+            {/*
+
             <a href = '/archive'>
                 <img src = '/icons/books.svg' width = {20}/>
                 Archive
             </a>
+            
+            */}
             
             <span style = {{fontSize: 27}}>
                 {"}"}
