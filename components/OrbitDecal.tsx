@@ -1,14 +1,17 @@
-// Import
-import './styles/OrbitDecal.css';
+import styles from './OrbitDecal.module.css';
 
-// Component
-const OrbitDecal = ({size}: {size: number}) => {
+interface OrbitProps {
+    size: number
+}
+
+const OrbitDecal = ({size}: OrbitProps) => {
     return (
-        <div id = 'OrbitContainer' className = 'flex-center'>
-            <img id = 'OrbitDecal' src = '/images/orbit.svg' width = {size}/>
+
+        <div className = {`flex-centered ${styles.OrbitContainer}`}>
+            <img className = {styles.OrbitDecal} src = '/images/orbit.svg' width = {size}/>
         </div>
+
     )
 }
 
-// Export
 export default OrbitDecal;

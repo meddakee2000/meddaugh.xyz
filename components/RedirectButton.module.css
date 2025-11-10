@@ -1,0 +1,20 @@
+.RedirectButton {
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+    transition: all ease-in-out 0.1s;
+}
+
+.RedirectButton img {
+    padding-right: 10px;
+}
+
+.RedirectButton:hover {
+    cursor: pointer;
+
+    filter: invert(1);
+    border-color: black;
+    background-color: black;
+}

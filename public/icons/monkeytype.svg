@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
                         <style>
-                            #bg{fill:#FFF;}
-                            path{fill: #111}
+                            #bg{fill:#ffffff;}
                         </style>
                         <g>
                             <path id="bg" d="M0 16Q0 0 16 0h32q16 0 16 16v32q0 16-16 16H16Q0 64 0 48"/>

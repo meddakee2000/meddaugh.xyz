@@ -1,5 +1,4 @@
-/* Orbit CSS */
-#OrbitContainer {
+.OrbitContainer {
     top: 0%;
     left: 0%;
     z-index: -1;
@@ -8,8 +7,8 @@
     position: fixed;
 }
 
-#OrbitDecal {
-    opacity: 25%;
+.OrbitDecal {
+    opacity: 15%;
     position: fixed;
     animation: roll 240s linear infinite;
 }

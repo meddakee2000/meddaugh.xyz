@@ -1,30 +1,34 @@
-// Import
-import './global.css';
-import Version from '@/components/Version';
+import './globals.css';
+import type { Metadata } from 'next';
+import Footer from '@/components/Footer';
 import { Roboto_Mono } from 'next/font/google';
 import OrbitDecal from '@/components/OrbitDecal';
-import Navigation from '@/components/Navigation';
 
-// Font Handler
-const Font = Roboto_Mono({
+export const metadata: Metadata = {
+    title: 'meddaugh.xyz'
+}
+
+const font = Roboto_Mono({
     subsets: ['latin']
 })
 
-// Component
-const RootLayout = ({children}: {children: React.ReactNode}) => {
-    return (
+interface LayoutProps {
+    children: React.ReactNode
+}
 
-        <html lang = 'en' className = {`${Font.className} flex-center`}>
+const RootLayout = ({children}: LayoutProps) => {
+    return (
+        <html lang = 'en' className = {`${font.className} flex-centered`}>
             <body>
+
                 {children}
-                <Version/>
-                <Navigation/>
+
                 <OrbitDecal size = {2000}/>
+                <Footer/>
+
             </body>
         </html>
-
     )
 }
 
-// Export
 export default RootLayout;
