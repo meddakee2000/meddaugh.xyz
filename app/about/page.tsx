@@ -7,8 +7,7 @@ export const metadata: Metadata = {
 
 const Page = () => {
     return (
-
-        <div id = 'content'>
+        <>
             
             <img src = '/images/banner.png' width = {'auto'}/>
 
@@ -25,8 +24,7 @@ const Page = () => {
                 I'm Keegan! I'm a junior software developer located in the United States. I've been studying various computer science fields for almost 6 years, and have developed a sophisticated development skillset. <br/><br/> While I'm always working on new things, my experience mainly lies in web technologies and app and/or service development using languages like HTML, JavaScript (or TypeScript), Python, and bash, including services like GitHub, Cloudflare, and Google Cloud.
             </div>
 
-        </div>
-
+        </>
     )
 }
 

@@ -8,8 +8,7 @@ export const metadata: Metadata = {
 
 const notFound = () => {
     return (
-
-        <div id = 'content'>
+        <>
 
             <Lennies/>
 
@@ -20,8 +19,7 @@ const notFound = () => {
 
             <Lennies/>
 
-        </div>
-
+        </>
     )
 }
 

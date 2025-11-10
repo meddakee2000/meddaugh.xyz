@@ -17,7 +17,10 @@ const RootLayout = ({children}: LayoutProps) => {
         <html lang = 'en' className = {`${font.className} flex-centered`}>
             <body>
 
-                {children}
+                <div id = 'content'>
+                    {children}
+                </div>
+
 
                 <Footer/>
                 <Navigation/>
