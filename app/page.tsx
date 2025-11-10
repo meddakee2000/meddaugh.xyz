@@ -1,6 +1,11 @@
+import type { Metadata } from 'next';
 import TypingText from '@/components/TypingText';
 import StackDisplay from '@/components/StackDisplay';
 import RedirectButton from '@/components/RedirectButton';
+
+export const metadata: Metadata = {
+    title: 'home • meddaugh.xyz'
+}
 
 const Page = () => {
     return (

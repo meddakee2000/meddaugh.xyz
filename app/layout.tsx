@@ -1,12 +1,8 @@
 import './globals.css';
-import type { Metadata } from 'next';
 import Footer from '@/components/Footer';
 import { Roboto_Mono } from 'next/font/google';
 import OrbitDecal from '@/components/OrbitDecal';
-
-export const metadata: Metadata = {
-    title: 'meddaugh.xyz'
-}
+import Navigation from '@/components/Navigation';
 
 const font = Roboto_Mono({
     subsets: ['latin']
@@ -23,8 +19,9 @@ const RootLayout = ({children}: LayoutProps) => {
 
                 {children}
 
-                <OrbitDecal size = {2000}/>
                 <Footer/>
+                <Navigation/>
+                <OrbitDecal size = {2000}/>
 
             </body>
         </html>

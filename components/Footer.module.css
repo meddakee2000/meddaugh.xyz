@@ -24,8 +24,13 @@
 
 .GitHub {
     background-color: #2b3137;
+    
+    transition: all ease-in-out 0.1s;
 }
 
 .GitHub:hover {
     cursor: pointer;
+    filter: brightness(1.25);
+    
+    transition: all ease-in-out 0.1s;
 }

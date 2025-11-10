@@ -12,8 +12,15 @@ html {
 }
 
 a {
+    display: flex;
+    align-items: center;
+
     color: white;
     text-decoration: none;
+}
+
+a img {
+    padding-right: 10px;
 }
 
 .flex-centered {
