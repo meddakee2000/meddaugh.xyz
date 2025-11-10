@@ -50,6 +50,8 @@ a img {
     gap: 25px;
     display: flex;
     flex-direction: column;
+
+    animation: slide-in 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 #description {
@@ -57,4 +59,15 @@ a img {
     font-size: 20px;
     font-style: italic;
     font-weight: normal;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(25px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
