@@ -20,7 +20,7 @@ const Page = () => {
                 title = 'PinFluence'
                 desc = 'PinFluence is a static imageboard with a layout similar to Pinterest. Created with Next.js and React.'
                 color = '#fc7a57'
-                url = 'https://google.com'
+                url = 'https://github.com/rh3t/PinFluence'
             >
             
                 <img src = '/icons/react.svg'/>
@@ -33,7 +33,7 @@ const Page = () => {
                 title = 'LynkNest'
                 desc = 'Lynknest is a bulk link sharing tool that can be used for sharing a series of links with the world.'
                 color = '#2b77ceff'
-                url = 'https://google.com'
+                url = 'https://github.com/rh3t/LynkNest'
             >
             
                 <img src = '/icons/nodejs.svg'/>
@@ -46,14 +46,14 @@ const Page = () => {
                 title = 'Mocha'
                 desc = 'Mocha is a text based operating system built with the Python programming language.'
                 color = '#ffee00ff'
-                url = 'https://google.com'
+                url = 'https://github.com/rh3t/Mocha'
             >
             
                 <img src = '/icons/python.svg'/>
             
             </Project>
 
-            <RedirectButton text = 'Older Projects' src = '/icons/ui/archive.svg' url = ''/>
+            <RedirectButton text = 'Older Projects' src = '/icons/ui/archive.svg' url = 'https://archive.meddaugh.xyz'/>
         
         </>
 
