@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Lennies from '@/components/Lennies';
 import Project from '@/components/Project';
 import TypingText from '@/components/TypingText';
 import RedirectButton from '@/components/RedirectButton';

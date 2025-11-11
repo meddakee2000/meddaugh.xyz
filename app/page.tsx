@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Lennies from '@/components/Lennies';
 import TypingText from '@/components/TypingText';
 import StackDisplay from '@/components/StackDisplay';
 import RedirectButton from '@/components/RedirectButton';
@@ -13,9 +12,9 @@ const Page = () => {
         <>
                 
             <div id = 'title' className = 'bordered-item' style = {{padding: '30px 0px'}}>
-                <TypingText text = 'meddaugh.xyz 🧑‍💻' speed = {50}/>
+                <TypingText text = '🧑‍💻 meddaugh.xyz 🧑‍💻' speed = {50}/>
                 <span id = 'description'>
-                    <TypingText text = 'Keegan Meddaugh, Software Developer' speed = {25}/>
+                    <TypingText text = 'Keegan Meddaugh, Junior Software Developer' speed = {25}/>
                 </span>
             </div>
 

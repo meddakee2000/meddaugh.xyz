@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Lennies from '@/components/Lennies';
 import TypingText from '@/components/TypingText';
 
 export const metadata: Metadata = {
@@ -10,14 +9,10 @@ const notFound = () => {
     return (
         <>
 
-            <Lennies/>
-
             <div className = 'flex-centered bordered-item' style = {{fontSize: 30, fontWeight: 'bold', flexDirection: 'column', padding: '30px 0px'}}>
-                <img src = '/icons/ui/question.svg' width = {60} style = {{paddingBottom: 10}}/>
+                <img src = '/icons/ui/question.svg' width = {60} style = {{paddingBottom: 15}}/>
                 <TypingText text = '404 - Item Not Found!' speed = {40}/>
             </div>
-
-            <Lennies/>
 
         </>
     )
