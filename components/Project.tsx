@@ -22,7 +22,7 @@ const Project = ({title, desc, url, color, children}: ProjectProps) => {
         <div className = {styles.Project} onClick = {() => handleClick(url)}>
             <div className = {styles.Title}>
                 <span style = {{color: color}}>
-                    <TypingText text = {title} speed = {40}/>
+                    <TypingText text = {title} speed = {50}/>
                 </span>
                 <div className = {styles.Icons}>
                     {children}

@@ -53,7 +53,7 @@ const Page = () => {
             
             </Project>
 
-            <RedirectButton text = 'Older Projects' src = '/icons/ui/archive.svg' url = 'https://archive.meddaugh.xyz'/>
+            <RedirectButton text = 'Other Projects' src = '/icons/ui/archive.svg' url = 'https://archive.meddaugh.xyz'/>
         
         </>
 
