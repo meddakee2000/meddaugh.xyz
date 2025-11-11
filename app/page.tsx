@@ -11,8 +11,6 @@ export const metadata: Metadata = {
 const Page = () => {
     return (
         <>
-
-            <Lennies/>
                 
             <div id = 'title' className = 'bordered-item' style = {{padding: '30px 0px'}}>
                 <TypingText text = 'meddaugh.xyz 🧑‍💻' speed = {50}/>
@@ -39,8 +37,6 @@ const Page = () => {
                 <RedirectButton text = 'MonkeyType' src = '/icons/social/monkeytype.svg' url = 'https://monkeytype.com/profile/Rh3t_'/>
                     
             </div>
-
-            <Lennies/>
 
         </>
     )

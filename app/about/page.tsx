@@ -1,5 +1,6 @@
-import TypingText from '@/components/TypingText';
 import type { Metadata } from 'next';
+import Lennies from '@/components/Lennies';
+import TypingText from '@/components/TypingText';
 
 export const metadata: Metadata = {
     title: 'about • meddaugh.xyz'
