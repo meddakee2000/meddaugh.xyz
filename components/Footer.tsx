@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
 
             <div className = {`flex-centered ${styles.GitHub}`} onClick = {() => handleClick('https://github.com/rh3t/Portfolio')}>
-                <img src = '/icons/github.svg' width = {20}/>
+                <img src = '/icons/social/github.svg' width = {20}/>
                 Visit on GitHub!
             </div>
 

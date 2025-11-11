@@ -1,12 +1,11 @@
 interface StackProps {
-    width: number,
-    gap: number
+    width: number
 }
 
-const StackDisplay = ({width, gap}: StackProps) => {
+const StackDisplay = ({width}: StackProps) => {
     return (
 
-        <div className = 'flex-centered' style = {{gap: gap}}>
+        <div className = 'flex-centered' style = {{flex: 1, justifyContent: 'space-evenly'}}>
             <img src = '/icons/html.svg' width = {width}/>
             <img src = '/icons/css.svg' width = {width}/>
             <img src = '/icons/typescript.svg' width = {width}/>

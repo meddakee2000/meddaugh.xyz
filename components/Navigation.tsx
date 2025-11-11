@@ -10,24 +10,19 @@ const Navigation = () => {
             </span>
 
             <a href = '/'>
-                <img src = '/icons/house.svg' width = {20}/>
+                <img src = '/icons/ui/house.svg' width = {20}/>
                 Home
             </a>
 
             <a href = '/about'>
-                <img src = '/icons/person.svg' width = {20}/>
+                <img src = '/icons/ui/person.svg' width = {20}/>
                 About
             </a>
 
-        
-            {/*
-
-            <a href = '/archive'>
-                <img src = '/icons/books.svg' width = {20}/>
-                Archive
+            <a href = '/projects'>
+                <img src = '/icons/ui/books.svg' width = {20}/>
+                Projects
             </a>
-            
-            */}
             
             <span style = {{fontSize: 27}}>
                 {"}"}

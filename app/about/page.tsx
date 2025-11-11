@@ -20,7 +20,6 @@ const Page = () => {
             </div>
 
             <div className = 'bordered-item' style = {{padding: '30px', textAlign: 'center', fontSize: 18}}>
-                
                 I'm Keegan! I'm a junior software developer located in the United States. I've been studying various computer science fields for almost 6 years, and have developed a sophisticated development skillset. <br/><br/> While I'm always working on new things, my experience mainly lies in web technologies and app and/or service development using languages like HTML, JavaScript (or TypeScript), Python, and bash, including services like GitHub, Cloudflare, and Google Cloud.
             </div>
 
