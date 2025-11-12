@@ -26,7 +26,7 @@ const Page = () => {
 
                 <RedirectButton text = 'GitHub' src = '/icons/social/github.svg' url = 'https://github.com/rh3t'/>
                 <RedirectButton text = 'Discord' src = '/icons/social/discord.svg' url = 'https://discord.com/users/996964730252042320'/>
-                <RedirectButton text = 'Gmail' src = 'icons/social/gmail.svg' url = 'mailto:me@meddaugh.xyz'/>
+                <RedirectButton text = 'Gmail' src = 'icons/social/gmail.svg' url = 'mailto:keegan@meddaugh.xyz'/>
 
             </div>
 
