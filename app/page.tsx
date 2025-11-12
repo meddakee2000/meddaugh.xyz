@@ -14,7 +14,7 @@ const Page = () => {
             <div id = 'title' className = 'bordered-item' style = {{padding: '30px 0px'}}>
                 <TypingText text = '🧑‍💻 meddaugh.xyz 🧑‍💻' speed = {50}/>
                 <span id = 'description'>
-                    <TypingText text = 'Keegan Meddaugh, Junior Software Developer' speed = {25}/>
+                    <TypingText text = 'Keegan Meddaugh, Student Software Developer' speed = {25}/>
                 </span>
             </div>
 
