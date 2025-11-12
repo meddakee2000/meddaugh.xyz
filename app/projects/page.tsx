@@ -20,7 +20,7 @@ const Page = () => {
                 title = 'PinFluence'
                 desc = 'PinFluence is a static imageboard with a layout similar to Pinterest. Created with Next.js and React.'
                 color = '#fc7a57'
-                url = 'https://github.com/rh3t/PinFluence'
+                url = 'https://github.com/meddakee2000/PinFluence'
             >
             
                 <img src = '/icons/react.svg'/>
@@ -33,7 +33,7 @@ const Page = () => {
                 title = 'LynkNest'
                 desc = 'Lynknest is a bulk link sharing tool that can be used for sharing a series of links with the world.'
                 color = '#2b77ceff'
-                url = 'https://github.com/rh3t/LynkNest'
+                url = 'https://github.com/meddakee2000/LynkNest'
             >
             
                 <img src = '/icons/nodejs.svg'/>
@@ -46,7 +46,7 @@ const Page = () => {
                 title = 'Mocha'
                 desc = 'Mocha is a text based operating system built with the Python programming language.'
                 color = '#ffee00ff'
-                url = 'https://github.com/rh3t/Mocha'
+                url = 'https://github.com/meddakee2000/Mocha'
             >
             
                 <img src = '/icons/python.svg'/>
