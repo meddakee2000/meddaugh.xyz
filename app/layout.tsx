@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import { Roboto_Mono } from 'next/font/google';
 import OrbitDecal from '@/components/OrbitDecal';
 import Navigation from '@/components/Navigation';
+import MobileCheck from '@/components/MobileCheck';
 
 const font = Roboto_Mono({
     subsets: ['latin']
@@ -24,6 +25,7 @@ const RootLayout = ({children}: LayoutProps) => {
 
                 <Footer/>
                 <Navigation/>
+                <MobileCheck/>
                 <OrbitDecal size = {2000}/>
 
             </body>
