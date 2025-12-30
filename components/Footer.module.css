@@ -34,3 +34,9 @@
     
     transition: all ease-in-out 0.1s;
 }
+
+@media (max-width: 480px) {
+    .Footer {
+        display: none;
+    }
+}

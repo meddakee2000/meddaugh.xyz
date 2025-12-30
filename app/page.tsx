@@ -11,7 +11,7 @@ const Page = () => {
     return (
         <>
                 
-            <div id = 'title' className = 'bordered-item' style = {{padding: '30px 0px'}}>
+            <div id = 'title' className = 'bordered-item' style = {{padding: '30px 0px', width: 700}}>
                 <TypingText text = '🧑‍💻 meddaugh.xyz 🧑‍💻' speed = {50}/>
                 <span id = 'description'>
                     <TypingText text = 'Keegan Meddaugh, Student Software Developer' speed = {25}/>

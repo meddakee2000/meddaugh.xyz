@@ -45,7 +45,7 @@ a img {
 }
 
 #content {
-    width: 700px;
+    max-width: 750px;
 
     gap: 25px;
     display: flex;

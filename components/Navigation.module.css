@@ -21,3 +21,9 @@
     transition: all ease-in-out 0.1s;
     border-bottom: 3px solid white;
 }
+
+@media (max-width: 480px) {
+    .Navigation {
+        display: none;
+    }
+}
